@@ -15,6 +15,7 @@ def index(request):
             "temp": str(json_data['main']['temp'])+'k',
             "pressure": str(json_data['main']['pressure']),
             "humidity": str(json_data['main']['humidity']),
+            "description": str(json_data['main']['description']),
         }
 
     else:
